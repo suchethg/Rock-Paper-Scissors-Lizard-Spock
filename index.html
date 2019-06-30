@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0" >
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="model.css">
+<script src="https://kit.fontawesome.com/6d2a60333f.js"></script>
+	<title>RPSLS_GAME</title>
+</head>
+<body>
+<div class="container">
+	<header class="header">
+		<h1>Rock Paper Scissors Lizard Spock</h1>
+		<button id="restart" class="restart-btn">Restart Game</button>
+		<div id="score" class="score"><p>Player:0</p>
+			<p>Computer:0</p>
+		</div>
+	</header>
+	<h2>Make Your Selection</h2>
+	<div class="choices">
+		<i id="rock" class="choice fas fa-hand-rock fa-10x"></i>
+		<i id="paper" class="choice fas fa-hand-paper fa-10x"></i>
+		<i id="scissors" class="choice fas fa-hand-scissors fa-10x"></i>
+		<i id="lizard" class="choice fas fa-hand-lizard fa-10x"></i>
+		<i id="spock" class="choice fas fa-hand-spock fa-10x"></i>
+	</div>
+</div>
+<!-- modal -->
+<div class="modal">
+	<div id="result" class="modal-content">
+		<h1 class="text-win">You Win</h1>
+<!-- <i class="fas fa-hand fa-10x"></i> -->
+<p>Computer Choose Rock</p>
+	</div>
+</div>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
